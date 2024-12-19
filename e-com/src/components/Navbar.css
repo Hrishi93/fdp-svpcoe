@@ -1,0 +1,31 @@
+.navabr-div {
+    background-color: #333; /* Dark background for the navbar */
+    overflow: hidden;       /* Clear floats and manage layout */
+    padding: 0;             /* Remove padding */
+    margin: 0;              /* Remove margin */
+    list-style-type: none;  /* Remove default list styles */
+    display: flex;          /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the navbar items */
+  }
+  
+  .navabr-div li {
+    display: inline;         /* Display list items inline */
+    padding: 10px 15px;      /* Add spacing around items */
+  }
+  
+  .navabr-div a {
+    text-decoration: none;   /* Remove underline from links */
+    color: white;            /* White text color for links */
+    font-size: 1rem;         /* Set font size */
+    transition: color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  .navabr-div a:hover {
+    color: #ff9800;          /* Change text color on hover */
+  }
+  
+  .navabr-div li:hover {
+    background-color: #444;  /* Add background hover effect */
+    border-radius: 5px;      /* Optional rounded corners */
+  }
+  
