@@ -1,5 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
+import PropsFC from './propscom/PropsFC';
+import PropsCC from './propscom/PropsCC';
+import StateCC from './statecom/StateCC';
 
 function App() {
   const collegeName = "SVPCOT"; //Variable
@@ -22,6 +24,11 @@ function App() {
     <div className="App">
       <header className="App-header">
        <h1>Welcome in Counter UI</h1>
+       <StateCC />
+       <p>--------------------------------</p>
+       <PropsFC  fname="Hrishikesh"  program="FDP"/>
+       <PropsCC  track="MERN Stack" location="SVCOT, NGP"/>
+       <p>----------------------</p>
        <p>College Name : {collegeName}</p>
        <p>Student Details : {studentDetail.name} {studentDetail.age} {studentDetail.branch}</p>
        <p>Braches : {branches[0]} " "
